@@ -2,7 +2,6 @@
 #include <string>
 #include <windows.h>
 #include <iostream>
-#include <string.h>
 #include <tchar.h>
 
 #define IOCTL_CUSTOM_CODE CTL_CODE(FILE_DEVICE_UNKNOWN, 0x800, METHOD_BUFFERED, FILE_ANY_ACCESS)
